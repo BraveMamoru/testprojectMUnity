@@ -18,8 +18,6 @@ import javax.transaction.Transactional;
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-//    @GeneratedValue(generator ="system-uuid")
-//    @GenericGenerator(name = "system-uuid", strategy = "uuid")
     private Long id;
     private String firstName;
     private String lastName;
